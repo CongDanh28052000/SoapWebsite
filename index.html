@@ -70,8 +70,8 @@
           <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
             <div class="offcanvas-header px-4 pb-0">
-              <a class="navbar-brand" href="index.html">
-                <img src="images/main-logo.png" class="logo">
+              <a class="navbar-brand d-none d-lg-block me-0" href="index.html">
+                <img src="images/main-logo.png" class="logo" width="70px" height="100px">
               </a>
               <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
             </div>
@@ -143,7 +143,9 @@
                     <a class="nav-link me-0" href="LOGIN.html" style=" width: 110PX;">Tài khoản</a>
                   </li>
                   <li class="cart-dropdown nav-item dropdown">
-                    <a class="nav-link dropdown-toggle me-0" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Giỏ hàng</a>
+                    <a class="nav-link dropdown-toggle me-0" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Giỏ hàng <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg></a>
                     <div class="dropdown-menu dropdown-menu-end p-3">
                       <h4 class="d-flex justify-content-between align-items-center mb-3">
                         <span class="text-primary">GIỎ HÀNG CỦA BẠN</span>
@@ -189,47 +191,14 @@
     <section id="billboard" class="position-relative overflow-hidden">
       <div class="swiper main-swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image: url(images/banner-image.jpg); background-size: cover; background-repeat: no-repeat; height: 100vh; background-position: center;">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="banner-content">
-                    <h2>Natural Handmade Soap</h2>
-                    <p class="fs-5">This is a luxurious handmade soaps crafted with care and love.</p>
-                    <a href="single-product.html" class="btn btn-outline">Shop Now</a>
-                  </div>
-                </div>
-                <div class="col-md-5"></div>
-              </div>
-            </div>
+          <div class="swiper-slide" style="background-image: url(images/banner-image.jpg); background-size: cover; background-repeat: no-repeat; height: 100vh; width: 100%; background-position: center;">
+          
           </div>
-          <div class="swiper-slide" style="background-image: url(images/banner-image1.jpg); background-size: cover; background-repeat: no-repeat; height: 100vh; background-position: center;">
-            <div class="container">
-              <div class="row">
-                <div class="offset-md-6 col-md-6">
-                  <div class="banner-content">
-                    <h2>Summer Scented Soap</h2>
-                    <p class="fs-5">This is a luxurious handmade soaps crafted with care and love.</p>
-                    <a href="single-product.html" class="btn btn-outline">Shop Now</a>
-                  </div>
-                </div>
-                <div class="col-md-5"></div>
-              </div>
-            </div>
+          <div class="swiper-slide" style="background-image: url(images/banner-image1.jpg); background-size: cover; background-repeat: no-repeat; height: 100vh; width: 100%; background-position: center;">
+      
           </div>
-          <div class="swiper-slide" style="background-image: url(images/banner-image2.jpg); background-size: cover; background-repeat: no-repeat; height: 100vh; background-position: center;">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="banner-content">
-                    <h2>Herbal Handmade Soap</h2>
-                    <p class="fs-5">This is a luxurious handmade soaps crafted with care and love.</p>
-                    <a href="single-product.html" class="btn btn-outline">Shop Now</a>
-                  </div>
-                </div>
-                <div class="col-md-5"></div>
-              </div>
-            </div>
+          <div class="swiper-slide" style="background-image: url(images/banner-image2.jpg); background-size: cover; background-repeat: no-repeat; height: 100vh; width: 100%; background-position: center;">
+       
           </div>
         </div>
         <div class="main-slider-pagination position-absolute text-center"></div>
@@ -243,40 +212,62 @@
             <div class="review-content position-relative" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-once="true">
               <div class="swiper testimonial-swiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide text-center d-flex justify-content-center">
+                  <div class="swiper-slide text-body-secondary d-flex justify-content-center">
                     <div class="review-item">
                       <blockquote class="fs-5 fw-light">
 
+                        Xà Bông Cô Ba là một thương hiệu xà phòng lâu đời với nhiều thế hệ người Việt - Được biết đến như một "Miss Saigon" thời bấy giờ, Cô Ba Thiệu đại diện cho vẻ đẹp và sức mạnh bất diệt của người phụ nữ Việt Nam. Tồn tại 92 năm, Xà bông Cô Ba Việt Nam đã được hồi sinh không chỉ như một sản phẩm xà bông đơn thuần mà còn là "nhân chứng sống" của bề dày lịch sử, mang theo những giá trị tinh thần bền vững của dân tộc, đặc biệt gần gũi với thế hệ trẻ, đặc biệt là gen Z.
+
+                        Được làm từ những nguyên liệu thiên nhiên như dầu dừa nguyên chất, và cải tiến thêm những thành phần hữu ích như bơ shea và dầu argan, sản phẩm luôn nổi bật với khả năng làm sạch sâu, dưỡng ẩm và bảo vệ da, phù hợp cho mọi loại da, kể cả da nhạy cảm.  
                         
-                        Xà Bông Cô Ba, một thương hiệu nổi tiếng với hơn 90 năm lịch sử, không chỉ đơn thuần là sản phẩm chăm sóc cá nhân, mà còn là biểu tượng của sự kết nối giữa các thế hệ. Được chiết xuất từ dầu dừa tự nhiên, xà bông không chỉ mang lại cảm giác mềm mịn cho làn da mà còn thể hiện sự bền vững và cam kết với môi trường. 
+                        Xà bông Cô Ba Việt Nam tự hào là biểu tượng của sự tinh túy và chất lượng Việt Nam. Sản phẩm không chỉ làm sạch và nuôi dưỡng làn da mà còn chứa đựng tinh thần yêu thương, sự kết nối với văn hóa và truyền thống dân tộc. 
+                         
                       </blockquote>
                       
                     </div>
                   </div>
-                  <div class="swiper-slide text-center d-flex justify-content-center">
+                  <div class="swiper-slide text-body-secondary d-flex justify-content-center">
                     <div class="review-item">
                       <blockquote class="fs-5 fw-light">
                         <div class="author-detail">
-                          <div class="name fw-bold text-uppercase pt-2" >gIÁ TRỊ CỐT LÕI </div>
+                          <div class="name fw-bold text-uppercase text-center pt-2">GIÁ TRỊ CỐT LÕI</div>
                         </div>
-                        Với sự trở lại này, chúng tôi muốn truyền tải thông điệp "Nối ký ức - Xóa khoảng cách" như một cam kết mạnh mẽ của xà bông Cô Ba trong hành trình mang đến những sản phẩm chất lượng. Mỗi viên xà bông không chỉ đơn thuần là sản phẩm chăm sóc sức khỏe, mà còn là cầu nối giúp bạn và gia đình cùng nhau chia sẻ, khám phá những giá trị văn hóa và gìn giữ những kỷ niệm quý báu.
+
+                        <div class="author-detail">
+                          <strong style="font-weight: bold;">Chất lượng</strong>: 
+                          Luôn đặt chất lượng sản phẩm lên hàng đầu, sử dụng nguyên liệu tự nhiên và an toàn cho sức khỏe.
+                        </div>
+
+                        <div class="author-detail">
+                          <strong style="font-weight: bold;">Kết nối</strong>: 
+                          Tạo ra những sản phẩm giúp kết nối các thế hệ và xây dựng mối quan hệ gần gũi hơn trong gia đình.
+                        </div>
+
+                        <div class="author-detail">
+                          <strong style="font-weight: bold;">Bền vững</strong>: 
+                          Cam kết bảo vệ môi trường và phát triển bền vững thông qua các hoạt động sản xuất thân thiện với môi trường.
+                        </div>
+
+                        <div class="author-detail">
+                          <strong style="font-weight: bold;">Di sản văn hóa</strong>: 
+                          Tôn vinh và gìn giữ giá trị văn hóa Việt Nam thông qua mỗi sản phẩm, mang lại cảm giác gần gũi và quen thuộc cho khách hàng.
+                        </div>
                       </blockquote>
-                      
                     </div>
                   </div>
-                  <div class="swiper-slide text-center d-flex justify-content-center">
+                  <div class="swiper-slide text-body-secondary d-flex justify-content-center">
                     <div class="review-item">
                       <blockquote class="fs-5 fw-light">
-                        <div class="name fw-bold text-uppercase pt-2">Anna garcia</div>
-                        Với sự kết hợp hoàn hảo giữa nguyên liệu tự nhiên và an toàn, sản phẩm xà bông Cô Ba Việt Nam không chỉ mang lại sự chăm sóc tốt nhất cho làn da mà còn truyền tải thông điệp yêu thương và sự gắn kết. Chúng tôi mong muốn mỗi sản phẩm của mình đều trở thành một phần trong những khoảnh khắc đáng nhớ cho khách hàng của mình.</blockquote>
+                        <div class="name fw-bold text-uppercase text-center pt-2">TẦM NHÌN VÀ SỨ MỆNH</div>
+                        Chúng tôi hướng tới sự tái sinh thương hiệu Xà Bông Cô Ba Việt Nam thành sản phẩm được yêu thích bởi thế hệ trẻ, đặc biệt là Gen Z. Sứ mệnh của chúng tôi hướng đến sự hạnh phúc, sự đồng cảm giữa nhiều thế hệ. Song, lưu giữ những khoảnh khắc yêu thương, bất diệt của người dùng nói riêng và dân tộc Việt Nam nói chung. </blockquote>
                      
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-buttons text-center mt-5" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1800" data-aos-once="true">
-              <button class="swiper-prev testimonial-arrow-prev me-2">
+            <div class="swiper-buttons text-center mt-4" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1800" data-aos-once="true">
+              <button class="swiper-prev testimonial-arrow-prev me-3">
                 <svg width="41" height="41"><use xlink:href="#arrow-left"></use></svg>
               </button>
               <span>|</span>
@@ -288,232 +279,7 @@
         </div>
       </div>
     </section>
-    <section id="about" class="padding-xlarge">
-      <div class="container">
-        <div class="row">
-          <div class="offset-md-2 col-md-8">
-            <h3 class="py-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-once="true" style="font-size: 40px; font-weight: bold;">GIỚI THIỆU THƯƠNG HIỆU</h3>
-            <p data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1800" data-aos-once="true">
-              Xà Bông Cô Ba, một thương hiệu nổi tiếng với hơn 90 năm lịch sử, không chỉ đơn thuần là sản phẩm chăm sóc cá nhân, mà còn là biểu tượng của sự kết nối giữa các thế hệ. Được chiết xuất từ dầu dừa tự nhiên, xà bông không chỉ mang lại cảm giác mềm mịn cho làn da mà còn thể hiện sự bền vững và cam kết với môi trường. 
-              </p>
-            <a href="about.html" class="btn me-5">Xem</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="products" class="product-store position-relative">
-      <div class="container display-header d-flex flex-wrap justify-content-between pb-4">
-        <h3 class="mt-3">Best selling Items</h3>
-        <div class="btn-right d-flex flex-wrap align-items-center">
-          <a href="shop.html" class="btn me-5">View all items</a>
-          <div class="swiper-buttons">
-            <button class="swiper-prev product-carousel-prev me-2">
-              <svg width="41" height="41"><use xlink:href="#angle-left"></use></svg>
-            </button>
-            <button class="swiper-next product-carousel-next">
-              <svg width="41" height="41"><use xlink:href="#angle-right"></use></svg>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="swiper product-swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="product-card position-relative">
-              <div class="image-holder zoom-effect">
-                <img src="images/product-item1.jpg" alt="product-item" class="img-fluid zoom-in">
-                <div class="cart-concern position-absolute">
-                  <div class="cart-button">
-                    <a href="#" class="btn">Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-detail text-center pt-3 pb-2">
-                <h5 class="card-title fs-5 text-uppercase">
-                  <a href="single-product.html">Gentle Lavender Bliss</a>
-                </h5>
-                <span class="item-price text-primary fs-3 fw-light">$870</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-card position-relative">
-              <div class="image-holder zoom-effect">
-                <img src="images/product-item2.jpg" alt="product-item" class="img-fluid zoom-in">
-                <div class="cart-concern position-absolute">
-                  <div class="cart-button">
-                    <a href="#" class="btn">Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-detail text-center pt-3 pb-2">
-                <h5 class="card-title fs-5 text-uppercase">
-                  <a href="single-product.html">Citrus Splash Delight</a>
-                </h5>
-                <span class="item-price text-primary fs-3 fw-light">$680</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-card position-relative">
-              <div class="image-holder zoom-effect">
-                <img src="images/product-item3.jpg" alt="product-item" class="img-fluid zoom-in">
-                <div class="cart-concern position-absolute">
-                  <div class="cart-button">
-                    <a href="#" class="btn">Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-detail text-center pt-3 pb-2">
-                <h5 class="card-title fs-5 text-uppercase">
-                  <a href="single-product.html">Minty Fresh Revival</a>
-                </h5>
-                <span class="item-price text-primary fs-3 fw-light">$750</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-card position-relative">
-              <div class="image-holder zoom-effect">
-                <img src="images/product-item4.jpg" alt="product-item" class="img-fluid zoom-in">
-                <div class="cart-concern position-absolute">
-                  <div class="cart-button">
-                    <a href="#" class="btn">Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-detail text-center pt-3 pb-2">
-                <h5 class="card-title fs-5 text-uppercase">
-                  <a href="single-product.html">Coconut Cream Dream</a>
-                </h5>
-                <span class="item-price text-primary fs-3 fw-light">$650</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-card position-relative">
-              <div class="image-holder zoom-effect">
-                <img src="images/product-item5.jpg" alt="product-item" class="img-fluid zoom-in">
-                <div class="cart-concern position-absolute">
-                  <div class="cart-button">
-                    <a href="#" class="btn">Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-detail text-center pt-3 pb-2">
-                <h5 class="card-title fs-5 text-uppercase">
-                  <a href="single-product.html">Honey Almond Glow</a>
-                </h5>
-                <span class="item-price text-primary fs-3 fw-light">$750</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-card position-relative">
-              <div class="image-holder zoom-effect">
-                <img src="images/product-item2.jpg" alt="product-item" class="img-fluid zoom-in">
-                <div class="cart-concern position-absolute">
-                  <div class="cart-button">
-                    <a href="#" class="btn">Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-detail text-center pt-3 pb-2">
-                <h5 class="card-title fs-5 text-uppercase">
-                  <a href="single-product.html">Oatmeal Soothing Bar</a>
-                </h5>
-                <span class="item-price text-primary fs-3 fw-light">$750</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-card position-relative">
-              <div class="image-holder zoom-effect">
-                <img src="images/product-item4.jpg" alt="product-item" class="img-fluid zoom-in">
-                <div class="cart-concern position-absolute">
-                  <div class="cart-button">
-                    <a href="#" class="btn">Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-detail text-center pt-3 pb-2">
-                <h5 class="card-title fs-5 text-uppercase">
-                  <a href="single-product.html">Eucalyptus Zest Awakening</a>
-                </h5>
-                <span class="item-price text-primary fs-3 fw-light">$750</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-card position-relative">
-              <div class="image-holder zoom-effect">
-                <img src="images/product-item3.jpg" alt="product-item" class="img-fluid zoom-in">
-                <div class="cart-concern position-absolute">
-                  <div class="cart-button">
-                    <a href="#" class="btn">Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-detail text-center pt-3 pb-2">
-                <h5 class="card-title fs-5 text-uppercase">
-                  <a href="single-product.html">Rose Petal Infusion</a>
-                </h5>
-                <span class="item-price text-primary fs-3 fw-light">$750</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="testimonials" class="position-relative padding-xlarge">
-      <div class="container">
-        <div class="row">
-          <div class="offset-md-2 col-md-8">
-            <h3 class="text-center mb-5" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">CÂU CHUYỆN THƯƠNG HIỆU</h3>
-            <div class="review-content position-relative" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-once="true">
-              <div class="swiper testimonial-swiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide text-center d-flex justify-content-center">
-                    <div class="review-item">
-                      <blockquote class="fs-3 fw-light">Xà Bông Cô Ba Việt Nam không chỉ đơn thuần là một sản phẩm chăm sóc cá nhân mà còn là biểu tượng văn hóa, mang trong mình một câu chuyện sâu sắc về di sản và nữ quyền. Hình ảnh Cô Ba Thiệu, một cô gái đẹp nổi bật trong cuộc thi Miss Saigon cách đây hơn 150 năm, đã trở thành hình mẫu của sức mạnh và sự tự tin của phụ nữ Việt Nam. Cô Ba không chỉ đại diện cho vẻ đẹp mà còn cho sức mạnh của dân tộc, ghi dấu ấn trong lịch sử và văn hóa Việt Nam.</blockquote>
-                      <div class="author-detail">
-                        <div class="name fw-bold text-uppercase pt-2">Anna garcia</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide text-center d-flex justify-content-center">
-                    <div class="review-item">
-                      <blockquote class="fs-3 fw-light">“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis.”</blockquote>
-                      <div class="author-detail">
-                        <div class="name fw-bold text-uppercase pt-2">Anna garcia</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide text-center d-flex justify-content-center">
-                    <div class="review-item">
-                      <blockquote class="fs-3 fw-light">“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis.”</blockquote>
-                      <div class="author-detail">
-                        <div class="name fw-bold text-uppercase pt-2">Anna garcia</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-buttons text-center mt-5" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1800" data-aos-once="true">
-              <button class="swiper-prev testimonial-arrow-prev me-2">
-                <svg width="41" height="41"><use xlink:href="#arrow-left"></use></svg>
-              </button>
-              <span>|</span>
-              <button class="swiper-next testimonial-arrow-next ms-2">
-                <svg width="41" height="41"><use xlink:href="#arrow-right"></use></svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="our-video">
+ <section id="our-video">
       <div class="video-section jarallax d-flex align-items-center justify-content-center" style="background: url(images/video-image.jpg) no-repeat;">
         <div class="video-player text-center">
           <a type="button" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/W_tIumKa8VY" data-bs-target="#myModal" class="play-btn position-relative">
@@ -523,21 +289,94 @@
         </div>
       </div>
     </section>
+
+    <section id="about" class="padding-xlarge">
+      <div class="container">
+        <div class="row">
+          <div class="offset-md-2 col-md-8">
+            <h3 class="py-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-once="true" style="font-size: 40px; font-weight: bold;">CÂU CHUYỆN THƯƠNG HIỆU</h3>
+            <p data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1800" data-aos-once="true">
+              Người phụ nữ xuất hiện trên sản phẩm xà bông Cô Ba của Trương Văn Bền là cô Ba Thiệu - người con gái Trà Vinh sắc nước hương trời đã đăng quang Miss Saigon hơn 150 năm trước. Hình ảnh cô Ba vốn dĩ đại diện cho nữ quyền, sức mạnh của dân tộc ta trong quá khứ. Song, thương hiệu xà bông cô Ba Việt Nam ở xã hội hiện đại hướng đến một hình tượng mới đại diện cho một nhân chứng sống đã tồn tại qua nhiều năm, trải qua bề dày của lịch sử Việt Nam, chứng kiến biết bao sự thay đổi của xã hội để giờ đây trở lại và mang đến những giá trị tinh thần bền vững sống mãi trong mọi thời đại. 
+              </p>
+            <button onclick="toggleContent()" id="readMoreBtn" class="btn me-5">XEM THÊM</button>
+            <div id="extraContent" style="display: none;">
+              <p class="mt-4">
+                Thương hiệu Xà bông Cô Ba Việt Nam được tái hiện lại từ hình ảnh “xà bông cô Ba” gắn với cái tên “xà bông Việt Nam”, là một lời khẳng định cho hình tượng cô Ba tạo ra sự kết nối với những cảm xúc, giá trị tinh thần cốt lõi, sâu thẳm nhất đến gần hơn với các bạn trẻ, đặc biệt là thế hệ genZ. Đồng thời, Xà bông Cô Ba Việt Nam tự hào khi tất cả những giá trị cốt lõi ấy đều được gói gọn lại trong chiếc bánh xà phòng được sản xuất bởi một thương hiệu thuần Việt, thổi vào sản phẩm linh hồn kiêu hãnh đầy tự hào, lan tỏa lòng tự tôn của một thương hiệu Việt Nam đến người tiêu dùng Việt và bạn bè quốc tế. 
+
+              </p>
+            </div>
+            <script>
+              function toggleContent() {
+                var content = document.getElementById("extraContent");
+                var btn = document.getElementById("readMoreBtn");
+                if (content.style.display === "none") {
+                  content.style.display = "block";
+                  btn.innerHTML = "THU GỌN";
+                } else {
+                  content.style.display = "none"; 
+                  btn.innerHTML = "XEM THÊM";
+                }
+              }
+            </script>
+
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="banner" data-aos="fade" data-aos-once="true">
+      <div class="banner-content-1 position-relative" style="background:url('images/banner-img1.jpg') no-repeat left; background-size: cover; background-position: center; height: 400px;">
+        <div class="banner-content-text position-absolute" data-aos="fade" data-aos-delay="1000" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true" style="top: 75%;">
+          <h3 style="font-family: 'Cormorant Upright', serif; color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Bộ sưu tập bánh bèo</h3>
+          <a href="shop.html" class="btn" style="font-family: 'Sora', sans-serif;">Truy cập ngay</a>
+        </div>
+      </div>
+      <div class="banner-content-2 position-relative" style="background:url('images/banner-img2.jpg') no-repeat left; background-size: cover; background-position: center; height: 400px; width: 100%;">
+        <div class="banner-content-text position-absolute" data-aos="fade" data-aos-delay="1000" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true" style="top: 75%;">
+          <h3 style="font-family: 'Cormorant Upright', serif; color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Bộ sưu tập Noel</h3>
+          <a href="shop.html" class="btn" style="font-family: 'Sora', sans-serif;">Truy cập ngay</a>
+        </div>
+      </div>
+      <div class="banner-content-3 position-relative" style="background:url('images/banner-img3.jpg') no-repeat left; background-size: cover; background-position: center; height: 400px;">
+        <div class="banner-content-text position-absolute" data-aos="fade" data-aos-delay="1000" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true" style="top: 75%;">
+          <h3 style="font-family: 'Cormorant Upright', serif; color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Bộ sưu tập Tết</h3>
+          <a href="shop.html" class="btn" style="font-family: 'Sora', sans-serif;">Truy cập ngay</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="padding-xlarge">
+      <div class="container">
+        <div class="row">
+          <div class="offset-md-2 col-md-8">
+            <h3 class="py-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-once="true" style="font-size: 40px; font-weight: bold;">Key Message : “Xà bông Cô Ba Việt Nam- Nối ký ức, xóa khoảng cách”</h3>
+            <p data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1800" data-aos-once="true">
+              “Nối ký ức - Xóa khoảng cách” chính là tiếng lòng của Gen Z được cất lên một cách nhẹ nhàng, kín đáo và đầy sâu sắc. Mọi sự kết nối, đều được vun đắp từ  những mảnh vụn ký ức, từ đó hun đúc lên một tình yêu chân thành, một khát vọng dựng xây để một lần nữa có thể thấu hiểu những người mà họ yêu thương, giữ lại những ký ức cội nguồn mà họ đã từng quên lãng. Những khoảng cách về thế hệ sẽ không bao giờ tồn tại và hiện hữu dù cho có trải qua vết bụi thời gian. 
+              </p>
+        
+           
+         
+
+            
+          </div>
+        </div>
+      </div>
+    </section>
+   
     <section id="faqs" class="padding-xlarge">
       <div class="container">
         <div class="row">
           <div class="offset-md-2 col-md-8">
-            <h3 class="text-center mb-5" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">Some FAQs</h3>
+            <h3 class="text-center mb-5" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">Câu Hỏi Thường Gặp</h3>
             <div class="accordion accordion-flush" id="accordionFlush" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1500" data-aos-once="true">
               <div class="accordion-item">
                 <h4 class="accordion-header" id="flush-headingOne3">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                    Are your soaps suitable for sensitive skin?
+                    Xà phòng của bạn có phù hợp với da nhạy cảm không?
                   </button>
                 </h4>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
-                    <p>Yes, our soaps are gentle and suitable for sensitive skin. They are free from harsh chemicals and artificial fragrances.</p>
+                    <p>Có, xà phòng của chúng tôi rất dịu nhẹ và phù hợp với da nhạy cảm. Sản phẩm không chứa hóa chất độc hại và hương liệu nhân tạo.</p>
                   </div>
                 </div>
               </div>
@@ -545,12 +384,12 @@
               <div class="accordion-item">
                 <h4 class="accordion-header" id="flush-headingTwo3">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo">
-                    Do you offer international shipping?
+                    Bạn có giao hàng quốc tế không?
                   </button>
                 </h4>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
-                    <p>Yes, we offer international shipping. Please check our shipping policy for more details.</p>
+                    <p>Có, chúng tôi có dịch vụ giao hàng quốc tế. Vui lòng xem chính sách vận chuyển để biết thêm chi tiết.</p>
                   </div>
                 </div>
               </div>
@@ -558,12 +397,12 @@
               <div class="accordion-item">
                 <h4 class="accordion-header" id="flush-headingThree3">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="true" aria-controls="flush-collapseThree">
-                    Can I return or exchange a product?
+                    Tôi có thể trả lại hoặc đổi sản phẩm không?
                   </button>
                 </h4>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
-                    <p>Yes, we accept returns and exchanges within 30 days of purchase. Please refer to our returns policy for more information.</p>
+                    <p>Có, chúng tôi chấp nhận trả lại và đổi sản phẩm trong vòng 30 ngày kể từ ngày mua. Vui lòng tham khảo chính sách đổi trả để biết thêm thông tin.</p>
                   </div>
                 </div>
               </div>
@@ -573,31 +412,12 @@
         </div>
       </div>
     </section>    
-    <section id="banner" data-aos="fade" data-aos-once="true">
-      <div class="banner-content-1 position-relative" style="background:url('images/banner-img1.jpg') no-repeat left; background-size: cover; background-position: center; height: 100%;">
-        <div class="banner-content-text position-absolute" data-aos="fade" data-aos-delay="1000" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
-          <h2>Bar Soaps</h2>
-          <a href="shop.html" class="btn">Shop it now</a>
-        </div>
-      </div>
-      <div class="banner-content-2 position-relative" style="background:url('images/banner-img2.jpg') no-repeat left; background-size: cover; background-position: center; height: 100%;">
-        <div class="banner-content-text position-absolute" data-aos="fade" data-aos-delay="1000" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
-          <h2>Specialty Soaps</h2>
-          <a href="shop.html" class="btn">Shop collection</a>
-        </div>
-      </div>
-      <div class="banner-content-3 position-relative" style="background:url('images/banner-img3.jpg') no-repeat left; background-size: cover; background-position: left; height: 100%;">
-        <div class="banner-content-text position-absolute" data-aos="fade" data-aos-delay="1000" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
-          <h2>Gift Sets</h2>
-          <a href="shop.html" class="btn">Shop collection</a>
-        </div>
-      </div>
-    </section>
+   
     <section id="blog-posts" class="padding-xlarge pb-0" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
       <div class="container">
         <div class="display-header d-flex flex-wrap justify-content-between align-items-center pb-4">
-          <h3 class="display-7 mt-3">Blog Posts</h3>
-          <a href="blog.html" class="btn">Read Blog</a>
+          <h3 class="display-7 mt-3">Bài Viết Blog</h3>
+          <a href="blog.html" class="btn">Đọc Blog</a>
         </div>
         <div class="row">
           <div class="col-lg-4 mb-2">
@@ -608,11 +428,11 @@
             </div>
             <div class="card-body text-capitalize">
               <div class="card-meta fs-6">
-                <span class="meta-date">Feb 22, 2024</span>
-                <span class="meta-category">/ <a href="blog.html">Tips</a></span>
+                <span class="meta-date">22/02/2024</span>
+                <span class="meta-category">/ <a href="blog.html">Mẹo Hay</a></span>
               </div>
               <h4 class="card-title">
-                <a href="single-post.html">The Benefits of Handmade Soap Over Commercial Brands</a>
+                <a href="single-post.html">Lợi Ích của Xà Phòng Handmade So Với Các Thương Hiệu Thương Mại</a>
               </h4>
             </div>
           </div>
@@ -624,11 +444,11 @@
             </div>
             <div class="card-body text-capitalize">
               <div class="card-meta fs-6">
-                <span class="meta-date">Feb 22, 2024</span>
-                <span class="meta-category">/ <a href="blog.html">Tips</a></span>
+                <span class="meta-date">22/02/2024</span>
+                <span class="meta-category">/ <a href="blog.html">Mẹo Hay</a></span>
               </div>
               <h4 class="card-title">
-                <a href="single-post.html">How to Choose the Right Soap for Your Skin Type</a>
+                <a href="single-post.html">Cách Chọn Xà Phòng Phù Hợp Với Loại Da Của Bạn</a>
               </h4>
             </div>
           </div>
@@ -640,11 +460,11 @@
             </div>
             <div class="card-body text-capitalize">
               <div class="card-meta fs-6">
-                <span class="meta-date">Feb 22, 2024</span>
-                <span class="meta-category">/ <a href="blog.html">Tips</a></span>
+                <span class="meta-date">22/02/2024</span>
+                <span class="meta-category">/ <a href="blog.html">Mẹo Hay</a></span>
               </div>
               <h4 class="card-title">
-                <a href="single-post.html">DIY Soap Making: A Beginner's Guide</a>
+                <a href="single-post.html">Hướng Dẫn Làm Xà Phòng Handmade Cho Người Mới Bắt Đầu</a>
               </h4>
             </div>
           </div>
@@ -658,49 +478,51 @@
             <div class="row d-flex flex-wrap justify-content-between">
               <div class="col-lg-3 col-sm-6 pb-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000" data-aos-once="true">
                 <div class="footer-menu">
-                  <img src="images/main-logo.png" alt="logo" class="mb-2">
-                  <p>Nunc tristique facilisis consectetur vivamus ut porta porta aliquam vitae vehicula leo nullam urna lectus.</p>
+                  <a class="navbar-brand d-none d-lg-block me-0" href="index.html">
+                    <img src="images/main-logo.png" class="logo" width="70px" height="100px">
+                  </a>
+                  <p>Chúng tôi tự hào mang đến những sản phẩm xà phòng thủ công chất lượng cao, được làm từ những nguyên liệu tự nhiên tốt nhất.</p>
                 </div>
               </div>
               <div class="col-lg-2 col-sm-6 pb-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1200" data-aos-once="true">
                 <div class="footer-menu">
-                  <h4 class="widget-title pb-2">Quick Links</h4>
+                  <h4 class="widget-title pb-2">Liên Kết Nhanh</h4>
                   <ul class="menu-list list-unstyled">
                     <li class="menu-item pb-2">
-                      <a href="about.html">About</a>
+                      <a href="about.html">Giới Thiệu</a>
                     </li>
                     <li class="menu-item pb-2">
-                      <a href="shop.html">Shop</a>
+                      <a href="shop.html">Cửa Hàng</a>
                     </li>
                     <li class="menu-item pb-2">
-                      <a href="contact.html">Contact</a>
+                      <a href="contact.html">Liên Hệ</a>
                     </li>
                     <li class="menu-item pb-2">
-                      <a href="login.html">Account</a>
+                      <a href="login.html">Tài Khoản</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6 pb-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1400" data-aos-once="true">
                 <div class="footer-menu contact-item">
-                  <h4 class="widget-title pb-2">Contact info</h4>
+                  <h4 class="widget-title pb-2">Thông Tin Liên Hệ</h4>
                   <ul class="menu-list list-unstyled">
                     <li class="menu-item pb-2">
-                      <a href="#">Tea Berry, Marinette, USA</a>
+                      <a href="#">123 Đường Lê Lợi, Quận 1, TP.HCM</a>
                     </li>
                     <li class="menu-item pb-2">
-                      <a href="#">+55 111 222 333 44</a>
+                      <a href="#">+84 123 456 789</a>
                     </li>
                     <li class="menu-item pb-2">
-                      <a href="mailto:">yourinfo@gmail.com</a>
+                      <a href="mailto:">info@xabongcoba.com</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6 pb-3" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1600" data-aos-once="true">
                 <div class="footer-menu">
-                  <h4 class="widget-title pb-2">Social info</h4>
-                  <p>You can follow us on our social platforms to get updates.</p>
+                  <h4 class="widget-title pb-2">Mạng Xã Hội</h4>
+                  <p>Theo dõi chúng tôi trên các nền tảng mạng xã hội để cập nhật thông tin mới nhất.</p>
                   <div class="social-links">
                     <ul class="d-flex list-unstyled">
                       <li>
@@ -753,7 +575,7 @@
         <div class="row d-flex flex-wrap justify-content-between">
           <div class="col-12">
             <div class="copyright">
-              <p>© Copyright 2024 Soapy. Template by <a href="https://templatesjungle.com/" target="_blank"><b>TemplatesJungle</b></a></p>
+              <p>© Bản quyền 2024 Xà Bông Cô Ba. Thiết kế bởi <a href="https://templatesjungle.com/" target="_blank"><b>TemplatesJungle</b></a></p>
             </div>
           </div>
         </div>
